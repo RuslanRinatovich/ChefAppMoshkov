@@ -1,0 +1,207 @@
+﻿<Window x:Class="FermerGoodsApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:FermerGoodsApp"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="" Height="800" Width="1080"  
+        WindowStartupLocation="CenterScreen"  Closing="Window_Closing"
+        BorderThickness="1" WindowStyle="None" ContentRendered="Window_ContentRendered" >
+
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+
+        
+
+        <Rectangle Grid.Row="0" Grid.Column="0" Fill="White"/>
+
+       
+
+        <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Right" >
+
+            <Button x:Name="BtnAdmin"   Margin="5 0 10 0"  
+                Style="{StaticResource MaterialDesignFlatButton}" Click="BtnAdminClick">
+                <materialDesign:PackIcon x:Name="IconBtnKey" Kind="Login"/>
+            </Button>
+
+            <Button x:Name="BtnMinimize" Content="{materialDesign:PackIcon Kind=WindowMinimize}"
+               Style="{StaticResource MaterialDesignFlatButton}" Click="BtnMinimize_Click"/>
+            <Button x:Name="BtnMaximizeMin" 
+               Style="{StaticResource MaterialDesignFlatButton}" Click="BtnMaximizeMin_Click">
+                <materialDesign:PackIcon x:Name="IconMaximize" Kind="WindowMaximize"/>
+            </Button>
+            <Button x:Name="BtnClose" Content="{materialDesign:PackIcon Kind=Close}"
+               Style="{StaticResource MaterialDesignFlatButton}" Click="BtnCloseClick"/>
+        </StackPanel>
+        <materialDesign:ColorZone Grid.Column="1" Grid.Row="1" VerticalAlignment="Stretch"
+  Mode="PrimaryMid" Foreground="White"
+  Padding="0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
+                    <Button x:Name="BtnMyAccount" Content="{materialDesign:PackIcon Kind=Account, Size=24}" Foreground="White"           
+                Style="{StaticResource MaterialDesignFlatButton}" Click="BtnMyAccount_Click" Visibility="Collapsed"/>
+            <Image Height="30" Width="30" x:Name="ImgUserPhoto" Stretch="UniformToFill" Margin="10 0 10 0"/>
+            <TextBlock Height="30" Width="200" x:Name="TbUserInfo" Margin="10 0 10 0" FontSize="14" Padding="3" FontWeight="Bold" />
+            <materialDesign:Badged x:Name="BadgeCount" BadgePlacementMode="Left" Padding="0"  VerticalContentAlignment="Center">
+                        <Button VerticalAlignment="Center" x:Name="BtnBuy"  Foreground="White" Style="{StaticResource MaterialDesignFlatButton}" Content="{materialDesign:PackIcon Kind=Cart, Size=24}"
+                    ToolTip="Корзина" Click="BtnBuyClick" Height="40" />
+            </materialDesign:Badged>
+
+
+                    <Button x:Name="BtnMyFeedBacks" Content="{materialDesign:PackIcon Kind=CommentEye, Size=24}" Foreground="White" ToolTip="Отзывы на товары"           
+                Style="{StaticResource MaterialDesignFlatButton}" Click="BtnMyFeedBacks_Click" Visibility="Collapsed"/>
+                  
+                    <Button x:Name="BtnMyOrders" Content="{materialDesign:PackIcon Kind=ListStatus, Size=24}" Foreground="White" ToolTip="Мои заказы"           
+                Style="{StaticResource MaterialDesignFlatButton}" Click="BtnMyOrders_Click" Visibility="Collapsed"/>
+            <Button x:Name="BtnEdit" Content="{materialDesign:PackIcon Kind=Edit, Size=24}"            
+                Style="{StaticResource MaterialDesignFlatButton}" Click="BtnEditClick" Foreground="White" Visibility="Collapsed"/>
+
+                    <Button x:Name="BtnSellerOrders" Content="{materialDesign:PackIcon Kind=ListStatus, Size=24}" Foreground="White" ToolTip="Мои заказы"           
+                Style="{StaticResource MaterialDesignFlatButton}" Click="BtnSellerOrders_Click" Visibility="Collapsed"/>
+
+                    <Button x:Name="BtnClients"  Click="BtnClients_Click" ToolTip="Пользователи"  Foreground="White"
+                             Style="{StaticResource MaterialDesignFlatButton}" Visibility="Collapsed"
+                            Content="{materialDesign:PackIcon Kind=People, Size=24}"
+                           />
+
+
+
+
+                </StackPanel>
+                <Button x:Name="BtnBack" Content="{materialDesign:PackIcon Kind=ArrowBack, Size=24}"   Foreground="White"  HorizontalAlignment="Right"  Margin="5 0 10 0"      
+                Style="{StaticResource MaterialDesignFlatButton}" Visibility="Collapsed" Click="BtnBack_Click"/>
+            </StackPanel >
+        </materialDesign:ColorZone>
+
+
+
+                    <Frame x:Name="MainFrame" Grid.Row="2" 
+NavigationUIVisibility="Hidden" BorderBrush="{StaticResource MaterialDesignPaper}"
+BorderThickness="2" ContentRendered="MainFrameContentRendered"/>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="Служба доставки еды «Шеф»"
+                   Style="{StaticResource MaterialDesignHeadline1TextBlock}" 
+                   FontSize="16" VerticalAlignment="Center" FontWeight="Bold" Padding="30 0" Margin="0 0 400 0"
+                   MouseDown="TextBlock_MouseDown"/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="0" Kind="ChefHat" 
+                                  Foreground="#FFFFC107" 
+                                  VerticalAlignment="Center" 
+                                  Margin="10 0" />
+
+        <TextBlock Grid.Row="3" Grid.Column="0" x:Name="TextBlockCount" Foreground="White"  Background="{StaticResource PrimaryHueDarkBrush}" />
+
+        <materialDesign:DialogHost Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Grid.RowSpan="4" x:Name="AccessWindow" 
+                                   BorderThickness="1"
+                                   BorderBrush="Aqua"
+                                   HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center" CloseOnClickAway="True">
+            <materialDesign:DialogHost.DialogContent>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="75"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="60"/>
+                        <RowDefinition Height="40"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="Панель администратора" 
+                   HorizontalAlignment="Center" 
+                   VerticalAlignment="Center"
+                   FontSize="20"
+                   FontWeight="Bold" />
+                    <StackPanel Orientation="Horizontal" Grid.Row="1">
+                        <TextBlock 
+                       Grid.Row="1"
+                       Text="Логин" 
+                       Margin="20 0" 
+                       VerticalAlignment="Center" Width="100"/>
+                        <TextBox x:Name="TbLogin" Text="client"
+                     Grid.Column="1"
+                     Width="200"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" Grid.Row="2">
+                        <TextBlock 
+                Grid.Row="2" Grid.Column="0"
+                Text="Пароль" Margin="20 0" 
+                VerticalAlignment="Center" Width="100"/>
+                        <PasswordBox x:Name="TbPass" Password="1" Height="30" Width="200" />
+                    </StackPanel >
+                    <StackPanel Orientation="Horizontal" Grid.Row="3" HorizontalAlignment="Center" Margin="5">
+                        <Button Width="100" Height="30" 
+                    Content="OK" 
+                    x:Name="BtnOk" 
+                    Click="BtnOkClick"/>
+                        <Button Width="100"
+                    Height="30" 
+                    Content="Cancel" 
+                    x:Name="BtnCancel" 
+                    Click="BtnCancelClick"/>
+                    </StackPanel>
+                        <Button  FontSize="10" Grid.Row="4 "
+                    Height="20" 
+                    Content="Регистрация как покупатель" 
+                    x:Name="BtnRegsBuyer" 
+                    Click="BtnRegsBuyer_Click"/>
+                  
+
+                </Grid>
+
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+        <materialDesign:DialogHost Grid.Row="0"  x:Name="BuysWindow" Grid.RowSpan="4"
+                                   BorderThickness="1"
+                                   BorderBrush="Aqua"
+                                   HorizontalAlignment="Center" 
+                                   VerticalAlignment="Center" Padding="0"
+CloseOnClickAway="True">
+            <materialDesign:DialogHost.DialogContent>
+                <StackPanel Margin="20" >
+                    <ListBox x:Name="LbBuy"  
+                             ScrollViewer.HorizontalScrollBarVisibility="Auto"
+                             Height="400" Width="540" SelectedValuePath="Key">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="5" Orientation="Horizontal">
+                                    <Image Width="60" Height="60" Source="{Binding Path=Key.GetPhoto}" />
+              <StackPanel Margin="10 0 0 0">
+                                        <TextBlock FontSize="14" Text="{Binding Path=Key.Name, StringFormat={}Товар: {0}}" Width="350" HorizontalAlignment="Left" FontWeight="Bold" />
+                                        <TextBlock FontSize="14" Text="{Binding Path=Key.Price, StringFormat={}цена за шт.: {0:F2} руб.}" Width="300" HorizontalAlignment="Left" />
+                                        <StackPanel Orientation="Horizontal" Margin="0 0 10 0">
+                                            <TextBlock FontSize="14" Text="{Binding Path=Value.Count, StringFormat={}количество: {0}}" Width="300" HorizontalAlignment="Left" />
+                                            <Button x:Name="BtnAdd" Content="{materialDesign:PackIcon Kind=Plus}" Width="60" DataContext="{Binding Key}" Click="BtnAdd_Click"/>
+                                            <Button x:Name="BtnDelete" Content="{materialDesign:PackIcon Kind=Minus}" Width="60" DataContext="{Binding Key}" Click="BtnDelete_Click_1"/>
+                                        </StackPanel>
+                                        <TextBlock FontSize="14" Text="{Binding Path=Value.Total, StringFormat={}итого: {0:F2} руб.}" Width="300" HorizontalAlignment="Right" />
+                                    </StackPanel>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Button x:Name="BtnOkBuy" 
+Content="Закрыть" Click="BtnOkBuy_Click" />
+                        <Button x:Name="BtnDelete" Content="Удалить" 
+Click="BtnDelete_Click" />
+                        <Button x:Name="BtnBuyItem" Click="BtnBuyItemClick" 
+Content="Купить" />
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
+    </Grid>
+</Window>

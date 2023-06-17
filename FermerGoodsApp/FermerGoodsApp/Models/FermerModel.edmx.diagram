@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c613f65f0b3c4d18ac7f75416f62c7ec" Name="Diagram1">
+        <EntityTypeShape EntityType="FermerBdModel.Category" Width="1.5" PointX="3.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.Client" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.Developer" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.DeveloperFeedBack" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.Good" Width="1.5" PointX="6" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.GoodFeedBack" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.Order" Width="1.5" PointX="9" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.OrderGood" Width="1.5" PointX="11.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FermerBdModel.Status" Width="1.5" PointX="9" PointY="10.25" IsExpanded="true" />
+        <AssociationConnector Association="FermerBdModel.FK_Good_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_DeveloperFeedBack_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_GoodFeedBack_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_Order_Client1" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_DeveloperFeedBack_Developer" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_Good_Developer" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_GoodFeedBack_Good" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_OrderGood_Good" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_OrderGood_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="FermerBdModel.FK_OrderGood_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

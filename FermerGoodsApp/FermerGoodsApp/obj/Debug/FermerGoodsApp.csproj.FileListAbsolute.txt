@@ -1,0 +1,140 @@
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\FermerGoodsApp.exe.config
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\FermerGoodsApp.exe
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\FermerGoodsApp.pdb
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.SqlServer.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignColors.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.xml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.SqlServer.xml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignColors.pdb
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ru\EntityFramework.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.AssemblyReference.cache
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Interop.VBIDE.dll
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.ResolveComReference.cache
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddGoodPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddOrderPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\CatalogPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\ClientsPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\EditClientPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\FeedBackPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\GoodPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\MyOrdersPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\SellerOrdersPage.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\AddFeedBackWindow.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\MainWindow.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\RegsBuyerWindow.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\App.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp_Content.g.cs
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp_MarkupCompile.cache
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp_MarkupCompile.lref
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\App.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddGoodPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddOrderPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\CatalogPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\ClientsPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\EditClientPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\FeedBackPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\GoodPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\MyOrdersPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\SellerOrdersPage.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\AddFeedBackWindow.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\MainWindow.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\RegsBuyerWindow.baml
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.g.resources
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.Properties.Resources.resources
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.GenerateResource.cache
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.CoreCompileInputs.cache
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.CopyComplete
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.exe
+d:\ДИПЛОМ 2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.pdb
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\FermerGoodsApp.exe.config
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\FermerGoodsApp.exe
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\FermerGoodsApp.pdb
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignColors.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.xml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignColors.pdb
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ru\EntityFramework.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ja-JP\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csprojAssemblyReference.cache
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Interop.VBIDE.dll
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.ResolveComReference.cache
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddGoodPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddOrderPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\CatalogPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\ClientsPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\EditClientPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\FeedBackPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\GoodPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\MyOrdersPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\SellerOrdersPage.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\AddFeedBackWindow.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\MainWindow.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\RegsBuyerWindow.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\App.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp_Content.g.cs
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp_MarkupCompile.cache
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp_MarkupCompile.lref
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\App.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddGoodPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\AddOrderPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\CatalogPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\ClientsPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\EditClientPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\FeedBackPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\GoodPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\MyOrdersPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Pages\SellerOrdersPage.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\AddFeedBackWindow.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\MainWindow.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\Windows\RegsBuyerWindow.baml
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.g.resources
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.Properties.Resources.resources
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.GenerateResource.cache
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.CoreCompileInputs.cache
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.csproj.CopyComplete
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.exe
+c:\Users\Main\Documents\ЗМК\ДИПЛОМ2023\Мошков\FermerGoodsApp\FermerGoodsApp\obj\Debug\FermerGoodsApp.pdb
