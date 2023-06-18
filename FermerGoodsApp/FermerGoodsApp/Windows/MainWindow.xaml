@@ -8,6 +8,7 @@
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         Title="" Height="800" Width="1080"  
+        MinHeight="700" MinWidth="800"
         WindowStartupLocation="CenterScreen"  Closing="Window_Closing"
         BorderThickness="1" WindowStyle="None" ContentRendered="Window_ContentRendered" >
 
@@ -72,7 +73,11 @@
                              Style="{StaticResource MaterialDesignFlatButton}" Visibility="Collapsed"
                             Content="{materialDesign:PackIcon Kind=People, Size=24}"
                            />
-
+                    <Button x:Name="BtnAllRewiew"  Click="BtnAllRewiew_Click" Foreground="White"
+                            ToolTip="Отзывы"
+                            Style="{StaticResource MaterialDesignFlatButton}"
+                            Content="{materialDesign:PackIcon Kind=MessageDraw, Size=24}"
+                            />
 
 
 

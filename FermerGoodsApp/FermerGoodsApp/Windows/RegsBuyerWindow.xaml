@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FermerGoodsApp.Windows"
         mc:Ignorable="d"
-        Title="Регистрация покупателя" Height="700" Width="800" WindowStartupLocation="CenterScreen">
+        Title="Регистрация покупателя" Height="700" Width="800" WindowStartupLocation="CenterScreen" Icon="/ChefDeliveryService;component/Resources/logo.ico"
+        MinHeight="700" MinWidth="800"
+        >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="55*" />

@@ -131,6 +131,7 @@ MessageBoxImage.Question);
                         BtnClients.Visibility = Visibility.Collapsed;
                         BtnMyOrders.Visibility = Visibility.Visible;
                         BadgeCount.Visibility = Visibility.Visible;
+                        BtnAllRewiew.Visibility = Visibility.Collapsed;
                         ImgUserPhoto.Visibility = Visibility.Visible;
                         ImgUserPhoto.Source = new BitmapImage(new Uri(u.GetPhoto));
                         TbUserInfo.Text = Manager.currentClient.GetFio;
@@ -148,6 +149,7 @@ MessageBoxImage.Question);
                         BtnMyAccount.Visibility = Visibility.Visible;
                         BtnClients.Visibility = Visibility.Visible;
                         ImgUserPhoto.Visibility = Visibility.Visible;
+                        BtnAllRewiew.Visibility = Visibility.Visible;
                         ImgUserPhoto.Source = new BitmapImage(new Uri(u.GetPhoto));
                         AccessWindow.IsOpen = false;
                         BtnEdit.Visibility = Visibility.Visible;
@@ -181,6 +183,7 @@ MessageBoxImage.Question);
                 BtnMyAccount.Visibility = Visibility.Collapsed;
                 BtnMyFeedBacks.Visibility = Visibility.Collapsed;
                 BtnClients.Visibility = Visibility.Collapsed;
+                BtnAllRewiew.Visibility = Visibility.Collapsed;
                 BtnMyOrders.Visibility = Visibility.Collapsed;
                 BadgeCount.Visibility = Visibility.Collapsed;
                 BtnEdit.Visibility = Visibility.Collapsed;
@@ -197,6 +200,7 @@ MessageBoxImage.Question);
                     BtnMyAccount.Visibility = Visibility.Collapsed;
                     BtnMyFeedBacks.Visibility = Visibility.Collapsed;
                     BtnClients.Visibility = Visibility.Collapsed;
+                    BtnAllRewiew.Visibility = Visibility.Collapsed;
                     BadgeCount.Visibility = Visibility.Collapsed;
                 }
                 else
@@ -211,6 +215,7 @@ MessageBoxImage.Question);
                         BtnSellerOrders.Visibility = Visibility.Visible;
                         BtnMyFeedBacks.Visibility = Visibility.Collapsed;
                         BtnMyAccount.Visibility = Visibility.Visible;
+                        BtnAllRewiew.Visibility = Visibility.Visible;
                         BtnClients.Visibility = Visibility.Visible;
                         BtnMyOrders.Visibility = Visibility.Collapsed;
                         BadgeCount.Visibility = Visibility.Collapsed;
@@ -222,6 +227,7 @@ MessageBoxImage.Question);
                     {
                         BtnEdit.Visibility = Visibility.Collapsed;
                         BtnSellerOrders.Visibility = Visibility.Collapsed;
+                        BtnAllRewiew.Visibility = Visibility.Collapsed;
                         BtnMyFeedBacks.Visibility = Visibility.Visible;
                         BtnClients.Visibility = Visibility.Collapsed;
                         BtnMyOrders.Visibility = Visibility.Visible;
@@ -448,6 +454,11 @@ MessageBoxImage.Question);
         private void BtnClients_Click(object sender, RoutedEventArgs e)
         {
             MainFrame.Navigate(new ClientsPage());
+        }
+
+        private void BtnAllRewiew_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new AllFeedBacksPagePage());
         }
     }
 }

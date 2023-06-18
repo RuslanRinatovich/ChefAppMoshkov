@@ -8,7 +8,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
     x:Class="FermerGoodsApp.Windows.AddFeedBackWindow"
         mc:Ignorable="d"
-         Title="Отзыв" WindowStartupLocation="CenterScreen"   Height="450" Width="600" Loaded="Window_Loaded"  >
+         Title="Отзыв" WindowStartupLocation="CenterScreen"  MinHeight="450" MinWidth="600"  Height="450" Width="600" Loaded="Window_Loaded" Icon="/ChefDeliveryService;component/Resources/logo.png"  >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="29" />

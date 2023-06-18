@@ -19,7 +19,7 @@
         </Grid.RowDefinitions>
         <DataGrid Grid.Row="0" x:Name="DtData" HorizontalAlignment="Stretch" VerticalAlignment="Top"
                     LoadingRow="DataGridGoodLoadingRow" IsReadOnly="True"
-                  AutoGenerateColumns="False" SelectionMode="Single" AlternationCount="1" Height="400">
+                  AutoGenerateColumns="False" SelectionMode="Single" AlternationCount="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Id}" Header = "ID"  Visibility="Hidden"/>
                 <DataGridTextColumn Binding="{Binding Date, StringFormat='d', ConverterCulture='ru-RU'}" Header = "Дата" />

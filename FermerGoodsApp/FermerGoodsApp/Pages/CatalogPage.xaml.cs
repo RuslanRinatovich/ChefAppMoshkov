@@ -33,6 +33,22 @@ namespace FermerGoodsApp.Pages
             LoadCategories();
 
         }
+
+        private void BtnMoreInfo_Click(object sender, RoutedEventArgs e)
+        {
+            Good quest = (sender as Button).DataContext as Good;
+            if (quest.GoodFeedBacks.Count == 0)
+                return;
+           
+            ListBoxRewiews.ItemsSource = quest.GoodFeedBacks;
+            DialogHostMoreInformation.DataContext = quest;
+            DialogHostMoreInformation.IsOpen = true;
+        }
+        private void BtnOk_Click(object sender, RoutedEventArgs e)
+        {
+
+            DialogHostMoreInformation.IsOpen = false;
+        }
         void LoadData()
         {
  

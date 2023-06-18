@@ -38,7 +38,7 @@ namespace FermerGoodsApp.Pages
             if (selected == null)
             {
 
-                  MessageBox.Show("+");
+              //    MessageBox.Show("+");
                 _currentItem = new Order();
                 _currentItem.DateStart = DateTime.Now;
                 _currentItem.DeliveryTime = DateTime.Now.AddHours(1).TimeOfDay;
@@ -61,7 +61,7 @@ namespace FermerGoodsApp.Pages
 
             }
             else {
-                MessageBox.Show(_currentItem.DeliveryTime.ToString());
+              //  MessageBox.Show(_currentItem.DeliveryTime.ToString());
                 SetReadOnly();
 
                 btnSave.Visibility = Visibility.Collapsed;

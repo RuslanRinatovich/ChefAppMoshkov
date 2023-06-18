@@ -39,7 +39,7 @@
         <TextBox Text="{Binding MiddleName}" Grid.Column="1" VerticalAlignment="Center" Grid.Row="3" Height="30" Margin="0,7" />
         <TextBlock Text="Телефон" VerticalAlignment="Center" Grid.Row="4" Margin="20 0 0 0"  Grid.Column="0" Height="30" />
         <xctk:MaskedTextBox   x:Name="TbPhone" Text="{Binding Phone}"
-                 Mask="+0 (000) 000-00-00" Style="{DynamicResource MaterialDesignTextBox}" FontSize="18"
+                 Mask="+0 (000) 000-00-00" Style="{DynamicResource MaterialDesignTextBox}" FontSize="14"
                  Padding="20 5 0 0"  VerticalAlignment="Center" Grid.Row="4" Grid.Column="1"  />
         <TextBlock Text="Email" VerticalAlignment="Center" Grid.Row="5" Margin="20 0 0 0"  Grid.Column="0"  Height="30"  />
         <TextBox Text="{Binding Email}" Grid.Column="1" VerticalAlignment="Center" Grid.Row="5" Height="30" Margin="0,7" />

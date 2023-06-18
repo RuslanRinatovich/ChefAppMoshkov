@@ -68,9 +68,15 @@ ScrollViewer.HorizontalScrollBarVisibility="Disabled"
 
                                 </Grid.RowDefinitions>
 
-                                <materialDesign:RatingBar  Value="{Binding Rate}" Orientation="Horizontal" Grid.Row="0" 
-                                                       Foreground="Gold"  Margin="5" IsReadOnly="True"/>
-
+                                <!--<materialDesign:RatingBar  Value="{Binding Rate}" Orientation="Horizontal" Grid.Row="0" 
+                                                       Foreground="Gold"  Margin="5" IsReadOnly="True"/>-->
+                                <Button Grid.Row="0" HorizontalAlignment="Left" Style="{DynamicResource MaterialDesignFlatButton}" Click="BtnMoreInfo_Click">
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Рейтинг по отзывам: " Style="{StaticResource MaterialDesignSubtitle2TextBlock}"/>
+                                        <materialDesign:RatingBar    Margin="10 0 0 0" IsReadOnly="True"  Foreground="Gold" 
+                                                      Value="{Binding Rate}" />
+                                    </StackPanel>
+                                </Button>
                                 <Image VerticalAlignment="Stretch" Grid.Row="1" Stretch="Uniform" HorizontalAlignment="Stretch" Source="{Binding Path=GetPhoto}"/>
                                 <Button x:Name="BtnMakeRewiew" 
                                     Grid.Row="1" Margin="5"  
@@ -111,7 +117,68 @@ ScrollViewer.HorizontalScrollBarVisibility="Disabled"
             </ListView>
         </Border>
         <TextBlock Grid.Row="2" x:Name="TextBlockCount" FontSize="12" FontWeight="Bold" />
+        <materialDesign:DialogHost x:Name="DialogHostMoreInformation"
+                                   Background="{StaticResource MaterialDesignDarkBackground}" 
+                                   
+                                   Width="600" MaxWidth="600"
+                                   Height="400" MaxHeight="400"
+                                   BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2"
+                                  >
+            <materialDesign:DialogHost.DialogContent >
+                <StackPanel Margin="20" >
+                    <Grid materialDesign:ColorZoneAssist.Mode="Dark">
+                        <Grid.RowDefinitions>
+                            <RowDefinition        Height="30" />
+                          
+                          
+                            <RowDefinition        Height="*" />
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0"      Margin="5" TextAlignment="Center"  VerticalAlignment="Stretch"
+                                       Text="Отзывы" TextWrapping="Wrap" HorizontalAlignment="Center"
+                                       FontWeight="Bold" FontSize="14"  />
 
-      
+                        <ScrollViewer HorizontalScrollBarVisibility="Disabled"  VerticalScrollBarVisibility="Auto"  Grid.Row="1">
+                            <ListBox  x:Name="ListBoxRewiews" VerticalAlignment="Stretch" >
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <materialDesign:Card Width="600">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="*"/>
+                                   
+                                </Grid.RowDefinitions>
+                                
+
+                                <materialDesign:RatingBar Margin="10 0 0 0" IsPreviewValueEnabled="True" Grid.Row="0"  IsReadOnly="True"   HorizontalAlignment="Left" Value="{Binding Rate}" Max="5"  />
+                                <TextBlock FontSize="16" 
+                                                           Grid.Row="0" 
+                                                       Style="{StaticResource MaterialDesignSubtitle2TextBlock  }" 
+                                                       Text="{Binding Path=Client.GetFio}" 
+                                                       HorizontalAlignment="Right" />
+
+                                                <TextBlock FontSize="14" Margin="10 0 10 0" Grid.Row="1" Text="{Binding Info}" TextWrapping="Wrap"
+                                                       HorizontalAlignment="Stretch"/>
+
+                                                 </Grid>
+                                     </materialDesign:Card>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </ScrollViewer>
+
+
+                    </Grid>
+
+                    <Button x:Name="btnOk" Click="BtnOk_Click" Width="100" HorizontalAlignment="Center">
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <materialDesign:PackIcon Kind="Check" Foreground="#FFF" Margin="5" VerticalAlignment="Center"/>
+                            <TextBlock Text="OK" VerticalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+        </materialDesign:DialogHost>
+
     </Grid>
 </Page>
